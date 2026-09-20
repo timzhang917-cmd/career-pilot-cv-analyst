@@ -10,6 +10,22 @@ CareerPilot CV Analyst is a reusable skill that compares a candidate's CV with a
 - Provides practical, job-targeted improvement suggestions.
 - Produces a self-contained HTML report that works without external APIs or network resources.
 
+## Example report
+
+The following screenshots show an example report generated from anonymised sample data.
+
+### Overall match and category scores
+
+![Overall match and category scores](docs/images/report-overview.png)
+
+### Requirement-by-requirement comparison
+
+![Requirement comparison](docs/images/requirement-comparison.png)
+
+### Prioritised improvement suggestions
+
+![Improvement suggestions](docs/images/improvement-suggestions.png)
+
 ## Required inputs
 
 Provide both:
@@ -66,6 +82,11 @@ careerpilot-cv-analyst/
 ├── README.md
 ├── assets/
 │   └── report-template.html
+├── docs/
+│   └── images/
+│       ├── improvement-suggestions.png
+│       ├── report-overview.png
+│       └── requirement-comparison.png
 └── references/
     ├── analysis-rubric.md
     └── result-schema.md
